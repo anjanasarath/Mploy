@@ -1,0 +1,84 @@
+body {
+font-family: -apple
+-system,BlinkMacsystemFo
+nt,Segoe UI,Roboto,Oxygen
+-Sans,Ubuntu,Cantarell,
+ Helvetticca Neue,
+  sans-serif;
+}
+
+.containerDiv{
+  max-width: 700px;
+  align-items: center;
+  justify-content: center;
+
+}
+.text1Div {
+  margin-top: 30px;
+justify-content: center;
+
+}
+.text2Div {
+justify-content: center;
+margin-top: 20px;
+
+}
+.h1{
+  font-family: "Times New Roman", Times, serif;
+  color: #AA00FF;
+}
+
+.btn {
+    justify-content: center;
+}
+.rbtnDiv {
+ max-width: 400px;
+ margin-top: 30px;
+ margin-left: 50px;
+}
+.fbtnDiv {
+  max-width: 400px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.letsConnect {
+  color: #3498DB !important;
+  font-size: 20px !important;
+}
+
+.loginContainerDiv {
+  margin: auto;
+}
+
+.paperContainer {
+  display: table;
+  margin: auto;
+}
+
+.loginTopPaper {
+  height: 380px;
+  width: 60%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.loginInnerPaper {
+  margin: auto;
+  height: 80%;
+  width: 95%;
+}

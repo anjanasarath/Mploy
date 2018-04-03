@@ -1,0 +1,37 @@
+body {
+  background-color: #ffff;
+}
+
+.ShowRecord {
+  background-color:#CFD8DC;
+  max-width: 800px;
+  min-height: 290px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.textfld {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.menu {
+  margin-top: 56px;
+  }
+
+.button {
+    margin-left: 50px;
+    margin-top: 80px;
+  }
