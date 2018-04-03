@@ -42,14 +42,7 @@ class LoginPage extends React.Component {
   }
   handleValidate(event){
 
-    const { email, password } = this.state;const paperStyle = {
-  height: 380,
-  width: 680,
-  };
-  const paperStyle2 = {
-    height:300,
-    width:600,
-  };
+    const { email, password } = this.state;
     const userName = "abc@gmail.com";
     const passWord = "@bC1";
     var passwordErr = '';
@@ -86,7 +79,7 @@ class LoginPage extends React.Component {
             <div id="paper" className="paperContainer">
               <Paper zDepth={5} className="loginTopPaper">
                 <Paper zDepth={1} className="loginInnerPaper">
-                  <h1 className="h1"><strong><em>Let's Mploy!</em></strong></h1>
+                  <h1 className="h1"><strong><em>Let&#39;s Mploy!</em></strong></h1>
                   <div id="text1" className="row text1Div">
                     <SubHeader style={subStyle}>Username</SubHeader>
                     <TextField
